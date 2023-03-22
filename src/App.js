@@ -7,6 +7,7 @@ import Footer from './Footer';
 import Main from './Main';
 import { Routes, Route, Link } from "react-router-dom";
 import Projects from './Projects';
+import Resume from './Resume';
 
 
 
@@ -17,6 +18,7 @@ function App() {
   <Routes>
   <Route path="projects" element={<Projects/>} />
   <Route path="/" element={<About/>} />
+  <Route path="resume" element={<Resume/>}/>
   </Routes>
       <Footer/>
     </div>

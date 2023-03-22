@@ -17,6 +17,10 @@ export default function Header() {
         navigate("/");
 
       }
+      function goToResume(){
+        navigate("resume");
+
+      }
     let navigate = useNavigate();
   return (
     <div>
@@ -32,6 +36,7 @@ export default function Header() {
           
 
             <Nav.Link href="projects" onClick={goprojects}>Projects</Nav.Link>
+            <Nav.Link href="resume" onClick={goToResume}>Resume</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

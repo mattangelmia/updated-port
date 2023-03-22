@@ -3,7 +3,7 @@
 const portfolioItems = [
     {
           name: "The New Normal",
-          description: "Current News Website with current events, concerts and covid tracking",
+          description: "Side project that was made to be a current News Website with current events, concerts and covid tracking",
           image: "./news.jpg",
           technologies: ["JavaScript", "HTML5", "CSS3",  "Axios", "Responsive Web Design"],
           live: "https://the-new-normal-informative.netlify.app/",

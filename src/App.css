@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+
+@media screen and (max-width: 767px) {
+  #port-items {
+    display: flex !important;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +45,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.button-div{
+  margin: auto;
+  margin-bottom: 10px;
 }
