@@ -22,7 +22,7 @@ export default function Projects() {
                     {project.description}
            </Card.Text>
         <div className='btn-div' style={{position: 'absolute', bottom: '0', paddingBottom: '20px', left: '30%'}}>
-        <Button variant="primary" >Check it out</Button>
+        <Button variant="primary" ><a href={project.live} style={{color: 'white', textDecoration: 'none'}}>Check it out</a></Button>
 
         </div>
       
