@@ -26,7 +26,7 @@ export default function About() {
 
 				<Col xs={12} sm={6} md={6} className="text-center my-auto" id="about">
 					<p>
-						My name is Matthew Angel, and I currently reside in Miami,Florida. I have about 2 and a half years of
+						My name is Matthew Angel, and I currently reside in Miami,Florida. I have 3 years of
 						experience in Front End Development.
 					</p>
 					<p>
