@@ -9,7 +9,8 @@ import newsImg from './news.jpg'
 export default function Projects() {
   return (
     <div>
-        <h1>Here are my projects</h1>
+        <h1 style={{marginTop: "20px"}}>Here are my projects</h1>
+        <h3>Some of the work I have done below includes a combination of personal projects and work for previous employers</h3>
         <div id="port-items" style={{display: 'grid', gridTemplateColumns: 'auto auto auto', position: 'relative'}}>
    {portfolioItems.map(project =>
         

@@ -20,7 +20,13 @@ function App() {
   <Route path="/" element={<About/>} />
   <Route path="resume" element={<Resume/>}/>
   </Routes>
-      <Footer/>
+  <div style={{paddingBottom: '50px'}}>
+  <Footer/>
+  </div>
+  <div style={{height: "40px"}}>
+
+  </div>
+    
     </div>
   );
 }

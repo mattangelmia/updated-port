@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 export default function Resume() {
   return (
-    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '15%'}}>
+    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '5%'}}>
         <a href={resume}>
         <Button variant="primary">Download my resume</Button>
             </a>

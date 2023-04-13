@@ -20,7 +20,7 @@ const portfolioItems = [
           description: "React app that allows users to search for books and add then categorize the books based on books they have read, books they are currently reading, and books they want to read.",
           image: "./myreads.jpg",
           technologies: ["Progressive Web App", "Node.js", "Express", "MongoDB Atlas", "IndexedDB", "Mongoose", "Heroku", "JavaScript", "HTML5", "CSS3", "Responsive Web Design"],
-          live: "https://my-reads-update.vercel.app/"
+          live: "https://my-books-iota.vercel.app/"
     },
     {
           name: "Gap Japan Website",

@@ -47,6 +47,10 @@
   }
 }
 
+.footer text-center my-auto py-auto{
+  margin-bottom: 40px !important;
+}
+
 
 .button-div{
   margin: auto;
