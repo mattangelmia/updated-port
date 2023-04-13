@@ -1,10 +1,11 @@
 import React from 'react'
+import './App.css';
 import {Container, Row, Col} from "react-bootstrap";
 
 
 export default function About() {
   return (
-    <div style={{marginTop: "6%"}}>
+    <div className="fade-in" style={{marginTop: "6%"}}>
       	<Container>
 			<Row>
 				<div className="jumbotron jumbotron-fluid mb-0">
